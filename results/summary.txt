@@ -1,0 +1,21 @@
+=======================================================
+  YÜZ TESPİT SİSTEMİ — PERFORMANS RAPORU
+=======================================================
+
+  [Haar Cascade]
+    Frame Sayısı    : 715
+    Ort. Süre (ms)  : 9.9108
+    Min / Max (ms)  : 1.8402 / 33.1229
+    Std Sapma (ms)  : 6.5447
+    Ort. FPS        : 100.9005
+    Ort. Tespit     : 0.6965
+
+  [DNN (SSD+ResNet)]
+    Frame Sayısı    : 714
+    Ort. Süre (ms)  : 28.6583
+    Min / Max (ms)  : 20.755 / 62.2385
+    Std Sapma (ms)  : 8.6124
+    Ort. FPS        : 34.8939
+    Ort. Tespit     : 0.8852
+
+=======================================================

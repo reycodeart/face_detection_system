@@ -1,0 +1,20 @@
+# ─────────────────────────────────────────────
+# Yüz Tespit Sistemi — requirements.txt
+# Python >= 3.8
+# ─────────────────────────────────────────────
+
+opencv-python>=4.7.0   # Haar Cascade + DNN modülü
+numpy>=1.23.0          # Matris işlemleri
+matplotlib>=3.6.0      # Karşılaştırma grafikleri
+Pillow>=9.0.0          # Tkinter PhotoImage dönüşümü
+
+# ── Kurulum ──────────────────────────────────
+# pip install -r requirements.txt
+#
+# GPU desteği (opsiyonel, CUDA gerektirir):
+#   pip install opencv-contrib-python
+#
+# DNN model dosyaları ilk çalıştırmada otomatik indirilir.
+# Manuel indirme:
+#   python -c "from core.dnn_detector import DNNDetector; DNNDetector()"
+# ─────────────────────────────────────────────
